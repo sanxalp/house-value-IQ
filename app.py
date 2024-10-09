@@ -13,7 +13,7 @@ scaler = joblib.load('scaler.pkl')  # Load the saved scaler
 
 @app.route('/')
 def index():
-    return render_template("C:\\Users\\SANKALP\Desktop\\ml-project\housing\\templates\\index.html")
+    return render_template("index.html")
 
 @app.route('/predict', methods=['POST'])
 def predict():

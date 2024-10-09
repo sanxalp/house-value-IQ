@@ -10,7 +10,7 @@ from keras.models import Sequential
 import joblib
 
 # Load and inspect data
-HouseDF = pd.read_csv("C:\\Users\\SANKALP\\Downloads\\HousingData.csv")
+HouseDF = pd.read_csv("HousingData.csv")
 HouseDF = HouseDF.reset_index()
 print(HouseDF.head())
 print(HouseDF.info())
